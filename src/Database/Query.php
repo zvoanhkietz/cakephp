@@ -1407,7 +1407,7 @@ class Query implements ExpressionInterface, IteratorAggregate
      * ```
      *
      * @param string $identifier The identifier for an expression
-     * @return ExpressionInterface
+     * @return \Cake\Database\IdentifierInterface
      */
     public function identifier($identifier)
     {

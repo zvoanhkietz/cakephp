@@ -14,7 +14,7 @@
  */
 namespace Cake\Database\Expression;
 
-use Cake\Database\ExpressionInterface;
+use Cake\Database\IdentifierInterface;
 use Cake\Database\ValueBinder;
 
 /**
@@ -22,7 +22,7 @@ use Cake\Database\ValueBinder;
  *
  * @internal
  */
-class IdentifierExpression implements ExpressionInterface
+class IdentifierExpression implements IdentifierInterface
 {
 
     /**
